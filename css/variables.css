@@ -1,0 +1,22 @@
+:root {
+    /* Paleta Iron Gym: Colores crudos, metálicos y alta energía */
+    --bg-base: #111111;
+    --bg-panel: #1A1A1A;
+    --primary: #E50914;
+    --primary-hover: #B8070F;
+    --text-main: #F5F5F5;
+    --text-muted: #8C8C8C;
+    --border-color: #333333;
+    /* Tipografía robusta e imponente */
+    --font-heading: 'Arial Black', 'Impact', 'Roboto Condensed', sans-serif;
+    --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --line-height: 1.5;
+    /* Dimensiones y Espaciados */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2.5rem;
+    --container-width: 1200px;
+    /* Efectos */
+    --transition: all 0.3s ease-in-out;
+}

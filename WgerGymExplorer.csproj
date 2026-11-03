@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <!--
+    Proyecto anfitrion minimo: solo sirve los archivos estaticos de esta carpeta
+    para que Visual Studio pueda ejecutarlo con el boton verde.
+    La aplicacion en si es HTML, CSS y JavaScript puro.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="css\**\*.css" />
+    <Content Include="js\**\*.js" />
+  </ItemGroup>
+
+</Project>
